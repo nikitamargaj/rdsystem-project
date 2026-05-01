@@ -1,73 +1,84 @@
-##  Live Demo
+# 🚀 RD Management System (Full Stack Project)
 
-https://rdsystem-project.vercel.app
-
-
-# RD User Management System
-
-A Full Stack CRUD Web Application built using:
-
-- React (Frontend)
-- Spring Boot (Backend)
-- MySQL (Database)
+🔗 Live Demo: https://rdsystem-project.vercel.app
 
 ---
 
-## Features
-
-- Add new user
-- Update user details
-- Delete user
-- View all users
-- Search users
-- Pagination (if added)
+## 📌 Project Overview
+RD Management System is a full-stack web application designed to manage user records and passbook details efficiently. It provides complete CRUD operations with a clean UI and RESTful backend.
 
 ---
 
-##  Tech Stack
+## 🛠 Tech Stack
 
-Frontend:
+### Frontend
 - React
 - Axios
 - Bootstrap
 
-Backend:
+### Backend
 - Spring Boot
 - Spring Web
 - Spring Data JPA
 
-Database:
+### Database
 - MySQL
 
 ---
 
-##  How to Run
+## ✨ Features
+
+- ➕ Add new users
+- ✏️ Update user details
+- ❌ Delete users
+- 📄 View all users
+- 🔍 Search functionality
+- 📊 Pagination support (if implemented)
+
+---
+
+## 🏗 Architecture
+
+This project follows a layered architecture:
+
+Controller → Service → Repository → Entity
+
+- **Controller** → Handles HTTP requests
+- **Service** → Business logic
+- **Repository** → Database interaction
+- **Entity** → Data model
+
+---
+
+## 🔗 API Endpoints (Sample)
+
+| Method | Endpoint       | Description        |
+|--------|--------------|-------------------|
+| POST   | /users       | Create user       |
+| GET    | /users       | Get all users     |
+| PUT    | /users/{id}  | Update user       |
+| DELETE | /users/{id}  | Delete user       |
+
+---
+
+## 🧪 Testing
+
+- APIs tested using Postman
+- Verified CRUD operations
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+- UI page
+- Postman API
+- Database
+
+---
+
+## ⚙️ How to Run Locally
 
 ### Backend
-
-
-mvn spring-boot:run
-### Frontend
-
-npm install
-npm run dev
-
-
----
-
-##  Project Status
-
-✔ CRUD functionality completed  
-✔ Frontend + Backend connected  
-
-
----
-
-##  Author
-
-Nikita Margaj
-
-
-
-
-
+```bash
+./gradlew bootRun
