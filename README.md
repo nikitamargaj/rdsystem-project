@@ -9,7 +9,7 @@ RD Management System is a full-stack web application designed to manage user rec
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
@@ -77,7 +77,7 @@ Controller → Service → Repository → Entity
 
 ---
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 ### Backend
 ```bash
