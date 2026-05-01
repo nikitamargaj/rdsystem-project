@@ -1,10 +1,10 @@
-# 🚀 RD Management System (Full Stack Project)
+#  RD Management System (Full Stack Project)
 
 🔗 Live Demo: https://rdsystem-project.vercel.app
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 RD Management System is a full-stack web application designed to manage user records and passbook details efficiently. It provides complete CRUD operations with a clean UI and RESTful backend.
 
 ---
@@ -26,18 +26,18 @@ RD Management System is a full-stack web application designed to manage user rec
 
 ---
 
-## ✨ Features
+##  Features
 
-- ➕ Add new users
-- ✏️ Update user details
-- ❌ Delete users
-- 📄 View all users
-- 🔍 Search functionality
-- 📊 Pagination support (if implemented)
+- Add new users
+- Update user details
+- Delete users
+- View all users
+- Search functionality
+- Pagination support (if implemented)
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 This project follows a layered architecture:
 
@@ -50,7 +50,7 @@ Controller → Service → Repository → Entity
 
 ---
 
-## 🔗 API Endpoints (Sample)
+##  API Endpoints (Sample)
 
 | Method | Endpoint       | Description        |
 |--------|--------------|-------------------|
@@ -61,14 +61,14 @@ Controller → Service → Repository → Entity
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 - APIs tested using Postman
 - Verified CRUD operations
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 (Add screenshots here)
 - UI page
