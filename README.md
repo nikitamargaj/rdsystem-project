@@ -68,10 +68,6 @@ Controller → Service → Repository → Entity
 
 ---
 
-## Screenshots
-
-(Add screenshots here)
-- UI page
 - Postman API
 - Database
 
